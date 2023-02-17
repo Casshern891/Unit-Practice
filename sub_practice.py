@@ -9,3 +9,11 @@ def sub():
     guess = input("Answer: ")
     if guess != str(ans):
         print("Sorry! That was incorrect.")
+
+def start():
+    print("Welcome! Here are 10 subtraction questions:")
+    for i in range(10):
+        sub()
+    print("Well done!")
+
+start()
